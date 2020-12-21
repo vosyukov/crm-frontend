@@ -27,6 +27,7 @@ jobs:
     - run: npm i
     - run: npm run build
   deploy:
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
     - name: FTP Deploy
