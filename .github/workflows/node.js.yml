@@ -41,5 +41,5 @@ jobs:
         local-dir: dist/
         # Path to upload to on the server. Must end with trailing slash /
         server-dir: ${{ secrets.DEPLOY_STAGING_PATH }}
-        dry_run: true 
+        dry-run: true 
 
