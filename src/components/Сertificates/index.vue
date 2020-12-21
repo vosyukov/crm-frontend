@@ -97,7 +97,7 @@ import moment from 'moment'
 export default {
 	name: 'Certificates',
 	components: {
-		CertificateFilter: () => import('@/assets/components/Forms/CertificateFilter')
+		CertificateFilter: () => import('@/assets/components/forms/CertificateFilter')
 	},
 	data () {
 		return {
